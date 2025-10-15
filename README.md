@@ -41,6 +41,8 @@ A package sorting system for Thoughtful's robotic automation factory. This modul
 
 ### Using the Package Sorter
 
+Core sort functionality is in the `index.js` file with a few exports for unit testing
+
 ```javascript
 import { sort, isPackageBulky, response } from './';
 
