@@ -1,0 +1,34 @@
+{
+  "name": "thoughtful.ai",
+  "version": "1.0.0",
+  "description": "Sort by package script",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "babel-jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "moduleNameMapping": {
+      "^(\\.{1,2}/.*)\\.js$": "$1"
+    }
+  },
+  "keywords": [
+    "es6",
+    "modules",
+    "jest",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT"
+}
